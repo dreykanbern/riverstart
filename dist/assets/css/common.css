@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* Main Colors */
+/* New Colors */
 /* Fonts */
 /* Screen sizes */
 /* block margins */
@@ -351,7 +352,7 @@ svg {
 
 /* common */
 html {
-  font-size: 1rem;
+  font-size: 10px;
 }
 
 .body {
@@ -361,7 +362,7 @@ html {
   background: #f8f8f8;
   color: #171717;
   font-family: "Fira Sans", sans-serif;
-  font-size: 1rem;
+  font-size: 10px;
   letter-spacing: normal;
   line-height: 1.2;
 }
@@ -510,8 +511,8 @@ strong {
 
 @font-face {
   font-family: "iconfont";
-  src: url("fonts/iconfont/iconfont.eot?1655029841");
-  src: url("fonts/iconfont/iconfont.eot?1655029841#iefix") format("eot"), url("fonts/iconfont/iconfont.woff2?1655029841") format("woff2"), url("fonts/iconfont/iconfont.woff?1655029841") format("woff"), url("fonts/iconfont/iconfont.ttf?1655029841") format("truetype"), url("fonts/iconfont/iconfont.svg?1655029841#iconfont") format("svg");
+  src: url("fonts/iconfont/iconfont.eot?1663031828");
+  src: url("fonts/iconfont/iconfont.eot?1663031828#iefix") format("eot"), url("fonts/iconfont/iconfont.woff2?1663031828") format("woff2"), url("fonts/iconfont/iconfont.woff?1663031828") format("woff"), url("fonts/iconfont/iconfont.ttf?1663031828") format("truetype"), url("fonts/iconfont/iconfont.svg?1663031828#iconfont") format("svg");
   font-display: swap;
 }
 .icon-vk:before, .icon-twitter:before, .icon-instagram:before, .icon-facebook:before {
@@ -1367,7 +1368,7 @@ body:not(.is-using-mouse) .fancybox__container :focus {
 }
 .bk__item {
   display: inline-block;
-  font-size: 1rem;
+  font-size: 10px;
   line-height: 1.2;
 }
 .bk__item:not(:last-child) {
@@ -1457,21 +1458,21 @@ body:not(.is-using-mouse) .fancybox__container :focus {
 */
 .content {
   overflow: hidden;
-  padding-top: 3rem;
+  padding-top: 8rem;
 }
 @media (min-width: 768px) {
   .content {
-    padding-top: 4rem;
+    padding-top: 9.4rem;
   }
 }
 @media (min-width: 1280px) {
   .content {
-    padding-top: 5rem;
+    padding-top: 8.7rem;
   }
 }
 @media (min-width: 1920px) {
   .content {
-    padding-top: 6rem;
+    padding-top: 10.2rem;
   }
 }
 
@@ -1485,29 +1486,44 @@ body:not(.is-using-mouse) .fancybox__container :focus {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #fff;
-  height: 2rem;
+  background-color: #1F2032;
+  height: 7rem;
 }
 @media (min-width: 768px) {
   .header {
-    height: 3rem;
+    height: 8.4rem;
   }
 }
 @media (min-width: 1280px) {
   .header {
-    height: 4rem;
+    height: 7.7rem;
   }
 }
 @media (min-width: 1920px) {
   .header {
-    height: 5rem;
+    height: 9.2rem;
   }
 }
 .header__inner {
-  height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.header__inner .inner__header-logo {
+  margin: 25px 0;
+  width: 121.5px;
+  height: 20px;
+  max-width: 100%;
+}
+.header__inner .inner__header-btn {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.header__inner .inner__header-btn .header-btn__item {
+  width: 23px;
+  border: 1px solid #F7F7FA;
 }
 
 .input input,
